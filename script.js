@@ -528,11 +528,11 @@ const medidasPorTipo = {
 };
 
 const corPorTorre = {
-  "1": "#e53935", // vermelho
-  "2": "#fbc02d", // amarelo
-  "3": "#1e88e5", // azul
-  "4": "#43a047", // verde
-  "5": "#ec407a"  // rosa
+  "1": "#ff0000", //vermelho
+  "2": "#ffb600", // amarelo
+  "3": "##0040ff", // azul
+  "4": "##0fab16", // verde
+  "5": "##f700ff"  // rosa
 };
 
 function esconderLocalizacao() {
@@ -590,7 +590,7 @@ function mostrarLocalizacaoVaga(numeroVaga, torre) {
   feedbackMapaErro.style.display = "none";
 
   elementoVaga.style.fill = corPorTorre[torre];
-  elementoVaga.style.opacity = "0.9";
+  //elementoVaga.style.opacity = "0.9";
 
   // Navega até a vaga
   setTimeout(() => {
