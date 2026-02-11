@@ -4,7 +4,7 @@ const form = document.getElementById("consultaForm");
 const resultado = document.getElementById("resultado");
 const cardLocalizacao = document.getElementById("cardLocalizacao");
 const conteudoMapa = document.querySelector(".localizacao-conteudo");
-const erroMapa = document.querySelector(".localizacao-erro");
+//const erroMapa = document.querySelector(".localizacao-erro");
 const feedbackMapaErro = document.getElementById("feedbackMapaErro");
 
 const apartamentos = (() => {
